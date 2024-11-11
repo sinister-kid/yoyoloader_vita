@@ -185,8 +185,8 @@ void gamepad_get_description(retval_t *ret, void *self, void *other, int argc, r
 
 	*ref = (ref_t){
 		.m_refCount = 1,
-		.m_size = strlen("Xbox 360 Controller (XInput STANDARD GAMEPAD)"),
-		.m_thing = strdup("Xbox 360 Controller (XInput STANDARD GAMEPAD)")
+		.m_size = strlen("PLAYSTATION(R)3 Controller"),
+		.m_thing = strdup("PLAYSTATION(R)3 Controller")
 	};
 
 	ret->kind = VALUE_STRING;
